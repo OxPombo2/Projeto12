@@ -1,9 +1,10 @@
 .Content {
     display: flex;
     flex: 1;
-    background-color: black;
-    color: white;
+    background-color:#8F713A33;
+    color: #61460F;
     padding: 20px;
+    font-family: 'Roboto' , sans-serif;
 }
 
 .Content > * {
@@ -13,12 +14,13 @@
 }
 
 .titulo {
-    background-color: lightgray;
+
     border-bottom: 5px solid gray;
     padding: 10px;
     margin-bottom: 20px;
     color: #14273e;
     text-align: center;
+    font-family: 'Roboto' , sans-serif;
 }
 
 .titulo h1, h2 {
@@ -28,15 +30,6 @@
 .conteudo {
     display: flex;
     flex: 1;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0 auto;
-    padding: 10px;
-    width: 50%;
-}
-
-.banana {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;

@@ -7,51 +7,16 @@ const Cardapio = props => (
             <h1>Cardápio</h1>
         </div>
 
-        <div className="banana">
-            <h2>A cozinha é baseada, respectivamente, na Culinária clássica francesa, italiana e japonesa</h2> 
+        <div className="conteudo">
+            <h2>A cozinha é especialmente italiana, com um toque caseiro e muito amor</h2> 
             <br/>
-
-                    <div class="item">
-            <img src="https://www.bing.com/images/blob?bcid=Tu6SzhnGRoED0g"/>
-            <span class="caption">Text below the image</span>
-        </div>
-        <div class="item">
-            <img src="https://www.bing.com/images/blob?bcid=TvFozSGzXIEDNw"/>
-            <span class="caption">Text below the image</span>
-        </div>
-        <div class="item">
-            <img src="https://www.bing.com/images/blob?bcid=Tl-7QLHcjoEDhA"/>
-            <span class="caption">An even longer text below the image which should take up multiple lines.</span>
-        </div>
-        <div class="item">
-            <img src="https://www.bing.com/images/blob?bcid=ThE9LeM-s4EDeg"/>
-            <span class="caption">Text below the image</span>
-        </div>
-        <div class="item">
-            <img src="https://munchies-images.vice.com/wp_upload/margherita-pizza-italy-2.jpg"/>
-            <span class="caption">Text below the image</span>
-        </div>
-        <div class="item">
-            <img src="https://www.bing.com/images/blob?bcid=TrkeV6K2IIEDKg"/>
-            <span class="caption">An even longer text below the image which should take up multiple lines.</span>
-        </div>
-        <div class="item">
-            <img src="https://www.bing.com/images/blob?bcid=Tr3Y2HUi5oEDQA"/>
-            <span class="caption">An even longer text below the image which should take up multiple lines.</span>
-        </div>
-        <div class="item">
-            <img src="https://th.bing.com/th/id/OIP._XgJIeviUEdqujQZNiGrPwHaFj?pid=ImgDet&rs=1"/>
-            <span class="caption">An even longer text below the image which should take up multiple lines.</span>
-        </div>
-        <div class="item">
-            <img src="https://www.bing.com/images/blob?bcid=Tp72F591Z4EDiw"/>
-            <span class="caption">An even longer text below the image which should take up multiple lines.</span>
-        </div>
-
-            <h4> Todos os direitos reservados © Andrei de Oliveira Athaide 2º DSA</h4> 
-            
+<img src="https://th.bing.com/th/id/R.57ae10ea2c66c2516613b34ad6ef24b4?rik=%2b5lr%2fUCBb35Hfw&riu=http%3a%2f%2fwww.saporito.com.br%2fsite%2fthemes%2fsaporito%2fpublic%2fimages%2fcardapio.jpg%3fv%3d2.1&ehk=YXVmSBJ2iBep2O39OlIRu2ndREIaq2vurrj0D%2bnDWz4%3d&risl=&pid=ImgRaw&r=0" widht="556px"   height="450px"></img>
+<br/>
+<h4> Todos os direitos reservados © Andrei de Oliveira Athaide 2º DSA</h4>  
             </div>
         </div>
+        
 )
+
 
 export default Cardapio

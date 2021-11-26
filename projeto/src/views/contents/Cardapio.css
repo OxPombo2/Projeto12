@@ -23,7 +23,7 @@ div.item {
     /* The width of the container also implies margin around the images. */
     width: 120px;
 }
-img {
+div.img {
     width: 100px;
     height: 100px;
     background-color: grey;
@@ -35,4 +35,14 @@ img {
 
 .content {
     display: block;
+}
+
+.banana {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 656px;
+    height: 473px;
 }
