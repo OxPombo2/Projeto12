@@ -1,0 +1,38 @@
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #a8dadc;
+}
+
+a:visited {
+    color: #a8dadc;
+}
+
+a:hover {
+    color: dodgerblue;
+}
+
+div.item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 120px;
+}
+img {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+}
+
+.content {
+    display: block;
+}
